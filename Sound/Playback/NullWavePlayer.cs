@@ -54,6 +54,8 @@ namespace GotaSoundIO.Sound.Playback {
             }
         }
 
+        public WaveFormat OutputWaveFormat { get; }
+
         /// <summary>
         /// Init.
         /// </summary>
